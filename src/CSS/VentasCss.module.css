@@ -1,0 +1,49 @@
+.div{
+    background-color: #23232E !important;
+    height: 100vh;
+}
+.CardS{
+    position: relative;
+    left: 50%;
+    top:-500px;
+    height:30px;
+    width: 210px;
+
+
+}
+.CardTV{
+    position: relative;
+    left: 40%;
+    top:-500px;
+    height:30px;
+    width: 210px;
+}
+
+/*----------SearchCard----------*/
+.Form{
+    height: 30px !important;
+    width: 210px !important;
+    position: relative;
+    top:-50px !important;
+    left: 1px;
+
+}
+.SearchBarCard{
+    height:30px;
+    width: 210px;
+}
+.SearchIcon{
+
+
+}
+.FormControl{/* BARCODE BAR*/
+
+
+
+
+}
+.SearchButton{
+
+    height:30px;
+}
+/*------------------endSearchCard---------------------*/

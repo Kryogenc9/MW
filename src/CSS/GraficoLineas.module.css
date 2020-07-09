@@ -1,0 +1,20 @@
+.div{
+    position: relative;
+
+    /*top: 73px;
+    left: 54px;
+    bottom: 18px;
+    width: 450px;
+    height: auto;*/
+    background: #282c34;
+    borderBlockColor: black;
+    borderRadius: 10px 10px 10px 10px;
+    mozBorderRadius: 10px 10px 10px 10px;
+    webkitBorderRadius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+.h3x{
+    padding-left: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}

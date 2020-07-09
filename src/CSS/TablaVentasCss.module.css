@@ -1,0 +1,17 @@
+.Table{
+    background-color:black;
+    color: #ffffff;
+    width: 500px;
+
+
+}
+.th{
+    background-color: #2E2E47;
+    height: 35px;
+}
+.td{
+    background-color: #2E2E47;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+}
