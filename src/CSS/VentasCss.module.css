@@ -18,6 +18,13 @@
     height:30px;
     width: 210px;
 }
+.Botona{
+    font-size: 10px;
+}
+.Botonc {
+    font-size: 10px;
+    padding-left: 25px;
+}
 
 /*----------SearchCard----------*/
 .Form{
