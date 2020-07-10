@@ -17,8 +17,8 @@ export default function Ventas() {
             </Card>
             <Card bsPrefix={`${vta.CardTV} card`}>
                 <TablaVentas/>
-                <Boton name="Aceptar" bsPrefix={`${vta.Botona} btn`}/>
-                <Boton name="Cancelar" bsPrefix={`${vta.Botonc} btn`}/>
+                <Boton name="Aceptar" style={vta.Botona} link="Ventas/Pagos"/>
+                <Boton name="Cancelar" style={vta.Botonc} link=" "/>
             </Card>
         </div>
     );
