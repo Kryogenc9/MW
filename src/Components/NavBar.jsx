@@ -10,30 +10,48 @@ import navb from "../CSS/Nav.module.css"
 import {Link} from "react-router-dom";
 
 export default function NavBar() {
-    return(
+    return (
         <div className={navb.div}>
-            <Nav defaultActiveKey={"/HOME"} className={"flex-column"} variant={"tabs"}>
-                <Nav.Item>
-                    <label className={navb.Logo}>MERCWEB</label>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/Home"  bsPrefix={`${navb.NavLink} nav-link`}> <HouseFill size="3em" fill="#9AA0A8" name={navb.icon} /> <label className={navb.Labels}>Home</label></Nav.Link>
-                 </Nav.Item>
+            <Nav /*defaultActiveKey="/Home"*/ className="flex-column" /*variant="tabs"*/>
 
-                <Nav.Item>
-                    <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}> <WalletFill size="3em" fill="#9AA0A8" name={navb.icon} /> <label className={navb.Labels}>Venta</label></Nav.Link>
+                    <label className={navb.Logo}>MERCWEB</label>
+
+                <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
+                    <Nav.Link href="/Home" bsPrefix={`${navb.NavLink} nav-link`}> <HouseFill size="3em" altura="3em"
+                                                                                             fill="#9AA0A8"
+                                                                                             name={navb.icon}/> <label
+                        className={navb.Labels}>Home</label></Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/HOME" bsPrefix={`${navb.NavLink} nav-link`}> <Cash size="3em" fill="#9AA0A8" name={navb.icon} /> <label className={navb.Labels}>Ofertas</label></Nav.Link>
+
+                <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
+                    <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}> <WalletFill size="3em" altura="3em"
+                                                                                                fill="#9AA0A8"
+                                                                                                name={navb.icon}/>
+                        <label className={navb.Labels}>Venta</label></Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/HOME" bsPrefix={`${navb.NavLink} nav-link`}> <StarFill size="3em" fill="#9AA0A8" name={navb.icon} /> <label className={navb.Labels}>Nuevo Producto</label> </Nav.Link>
+                <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
+                    <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}> <Cash size="3em" altura="3em"
+                                                                                          fill="#9AA0A8"
+                                                                                          name={navb.icon}/> <label
+                        className={navb.Labels}>Ofertas</label></Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/HOME" bsPrefix={`${navb.NavLink} nav-link`} > <Upc size="3em" fill="#9AA0A8" name={navb.icon} /> <label className={navb.Labels}>Cambiar<br/>Codigo</label></Nav.Link>
+                <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
+                    <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}> <StarFill size="3em" altura="3em"
+                                                                                              fill="#9AA0A8"
+                                                                                              name={navb.icon}/> <label
+                        className={navb.Labels}>Nuevo Producto</label> </Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/HOME" bsPrefix={`${navb.NavLink} nav-link`}> <GearFill size="3em" fill="#9AA0A8" name={navb.icon} /> <label className={navb.Labels} >Configuracion</label></Nav.Link>
+                <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
+                    <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}> <Upc size="3em" altura="3em"
+                                                                                         fill="#9AA0A8"
+                                                                                         name={navb.icon}/> <label
+                        className={navb.Labels}>Cambiar<br/>Codigo</label></Nav.Link>
+                </Nav.Item>
+                <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
+                    <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}> <GearFill size="3em" altura="3em"
+                                                                                              fill="#9AA0A8"
+                                                                                              name={navb.icon}/> <label
+                        className={navb.Labels}>Configuracion</label></Nav.Link>
                 </Nav.Item>
 
             </Nav>

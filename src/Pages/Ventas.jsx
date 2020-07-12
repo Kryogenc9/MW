@@ -5,9 +5,11 @@ import SearchBar from "../Components/SearchBar";
 import Card from "react-bootstrap/Card";
 import TablaVentas from "../Components/TablaVentas";
 import Boton from "../Components/Button";
+import {Link} from "react-router-dom";
+import ModPago from "../Mod/ModPago"
 
 //<Search size="1em" fill="#9AA0A8" name={vta.SearchIcon}/>
-
+//<Link to="/Pagos" className={vta.Botona}>Pagar</Link>
 export default function Ventas() {
     return(
         <div className={vta.div}>
@@ -17,9 +19,12 @@ export default function Ventas() {
             </Card>
             <Card bsPrefix={`${vta.CardTV} card`}>
                 <TablaVentas/>
-                <Boton name="Aceptar" style={vta.Botona} link="Ventas/Pagos"/>
-                <Boton name="Cancelar" style={vta.Botonc} link=" "/>
+
+                <Link to="/Home" className={vta.Botonc}>Cancelar</Link>
+
             </Card>
+            <ModPago/>
+
         </div>
     );
 

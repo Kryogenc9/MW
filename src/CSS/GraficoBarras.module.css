@@ -1,10 +1,6 @@
 .div{
-    /*position: relative;
-    top: -166%;
-    left: -2%;
-    bottom: auto;
     width: 450px;
-    height: 270px;*/
+    height: 270px;
     background: rgb(40, 44, 52);
     borderRadius: 10px;
     border: 0px solid rgb(0, 0, 0);

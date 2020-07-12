@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function Cash(props) {
-    const {size,fill,name}=props
+    const {size,altura,fill,name}=props
     return(
-        <svg width={size} height={size} viewBox="0 0 16 16" className={`${name} bi bi-cash`} fill={fill}
+        <svg width={size} height={altura} viewBox="0 0 16 16" className={`${name} bi bi-cash`} fill={fill}
              xmlns="http://www.w3.org/2000/svg">
             <path fillRule="evenodd"
                   d="M15 4H1v8h14V4zM1 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H1z"/>

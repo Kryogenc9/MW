@@ -1,47 +1,64 @@
 
-.Logo{
+.Logo {
+    height: 30px;
     padding-left: 5%;
-    font-size: 30px ;
-    margin-bottom: 30px;
+    font-size: 30px;
+    margin-bottom: 5px;
     text-align: center;
     color: #ffffff;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-.NavLink{
 
+.NavLink {
+
+    height:90px ;
     display: block;
+    margin-bottom: 0px;
 
-    margin-top: 10px;
     font-style: normal;
 
 }
-.Labels{
+.NavItem{
+    height:100px ;
+
+}
+
+.Labels {
 
     display: block;
-    text-align:center;
+    text-align: center;
     color: #ffffff;
     padding-left: 10%;
     font-style: normal;
 
 }
-.div{
-    background-color:#2E2E47;
-    height: 937px ;
-    width: 12% ;
+
+.div {
+    background-color: #2E2E47;
+    height: 625px;
+    width: 12%;
     border: 1px solid #3E6E95;
     border-bottom: none;
     border-top: none;
 
 
 }
-.icon{
-    padding-left: 63.955px;
+
+.icon {
+
+    margin: 0 0 0 35%;
 }
-@media only screen and (max-width:1366px ) {
-    .div{
+
+.NavLink:hover {
+    border: 1px solid #61dafb;
+}
+
+@media only screen and (max-width: 1366px ) {
+    .div {
         height: 100vh;
 
     }

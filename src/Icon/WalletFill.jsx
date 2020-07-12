@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function WalletFill(props) {
-    const {size,fill, name}=props
+    const {size,altura,fill, name}=props
     return(
-        <svg width={size} height={size} viewBox="0 0 16 16" className={`${name} bi bi-wallet-fill `} fill={fill}
+        <svg width={size} height={altura} height={size} viewBox="0 0 16 16" className={`${name} bi bi-wallet-fill`} fill={fill}
              xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2h-13z"/>

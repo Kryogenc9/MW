@@ -5,6 +5,9 @@ import {BrowserRouter as Router, Switch,Route} from "react-router-dom";
 import General from "../src/Pages/General"
 import av from "./CSS/Generalcss.module.css";
 import Ventas from "../src/Pages/Ventas"
+import Pagos from "./Pages/Pagos"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -24,6 +27,13 @@ function App() {
               </div>
 
             </Route>
+              <Route path="/PAGOS">
+
+                  <div>
+                      <Pagos/>
+                  </div>
+
+              </Route>
           </Switch>
         </Router>
   );

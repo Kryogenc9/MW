@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function HouseFill(props) {
-    const {size,fill,name}=props
+    const {size,altura,fill,name}=props
     return(
-        <svg width={size} height={size} viewBox="0 0 16 16" className={`${name} bi bi-house-fill`} fill={fill}
+        <svg width={size} height={altura} height={size} viewBox="0 0 16 16" className={`${name} bi bi-house-fill`} fill={fill}
              xmlns="http://www.w3.org/2000/svg">
             <path fillRule="evenodd"
                   d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>

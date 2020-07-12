@@ -7,13 +7,11 @@ import Card from "react-bootstrap/Card";
 export default function SearchBar(props) {
     const{place} = props;
     return(
-        <Card bsPrefix={`${vta.SearchBarCard} card`}>
-
+        <div className={vta.SearchBarCard}>
             <input type={"text"} placeholder={place}/>
-            <Button><Search size="1em" fill="#9AA0A8" name={vta.SearchIcon}/></Button>
+            <Button bsPrefix={`${vta.SearchButton} btn`}><Search size="1em" altura="1em" fill="#9AA0A8" name={vta.SearchIcon}/></Button>
+        </div>
 
-
-        </Card>
 
 
     );

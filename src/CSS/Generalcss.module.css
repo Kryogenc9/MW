@@ -4,13 +4,16 @@
 }
 .GraficoLineas{
 
+
+
     width: 450px;
     height: 270px;
     position: relative;
     top: -500px;
     left: 20%;
-    right: 1%;
-    margin-top: 0px;
+    border:none !important;
+
+
 
 
 
@@ -20,9 +23,10 @@
     width: 450px;
     height: 270px;
     position: relative;
-    top: -790px;
+    top: -770px;
     left: 60%;
     right: 1%;
-    margin-top: 0px;
+
+    border:none !important;
 
 }
