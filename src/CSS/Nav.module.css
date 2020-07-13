@@ -1,8 +1,9 @@
 
 .Logo {
+
     height: 30px;
     padding-left: 5%;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 5px;
     text-align: center;
     color: #ffffff;
@@ -15,15 +16,18 @@ a {
 
 .NavLink {
 
-    height:90px ;
+    height:85px ;
     display: block;
     margin-bottom: 0px;
-
+    padding: 0px !important;
     font-style: normal;
 
 }
 .NavItem{
-    height:100px ;
+
+    padding: 0px !important;
+    margin-bottom: 0px;
+    height:85px ;
 
 }
 
