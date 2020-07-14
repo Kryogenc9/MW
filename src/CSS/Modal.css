@@ -1,9 +1,26 @@
 .Header{
-
+    background-color: #61dafb;
 }
 .Body{
     background-color: #2E2E47 !important;
+
 }
-.form{
+form{
     background-color: #2E2E47;
+    color:#ffffff;
+}
+.label{
+
+}
+.input{
+
+}
+
+
+.div{
+    background-color: #2E2E47;
+}
+
+.custom-modal{
+    background-color: red !important;
 }
