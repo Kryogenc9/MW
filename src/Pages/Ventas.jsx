@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 import TablaVentas from "../Components/TablaVentas";
 import Boton from "../Components/Button";
 import {Link} from "react-router-dom";
-import ModPago from "../Mod/ModPago"
+import Modal from "../Mod/Modal";
 
 //<Search size="1em" fill="#9AA0A8" name={vta.SearchIcon}/>
 //<Link to="/Pagos" className={vta.Botona}>Pagar</Link>
@@ -23,7 +23,7 @@ export default function Ventas() {
                 <Link to="/Home" className={vta.Botonc}>Cancelar</Link>
 
             </Card>
-            <ModPago/>
+            <Modal Prices="999.999"/>
 
         </div>
     );

@@ -1,0 +1,51 @@
+.form{
+    background-color: #2E2E47;
+    color: white;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 30vh;
+    left: 75vh;
+
+}
+body{
+    background-color: #282c34 !important;
+    align-items: center!important;
+}
+.logo{
+    text-align: Center;
+    display: block;
+    border-bottom: 1px solid black;
+}
+.labelemail{
+    margin-left: 10px;
+
+}
+.labelpassword{
+    margin-left: 10px;
+    text-align: left;
+
+}
+.Olvido{
+    margin-left: 150px;
+    text-align: right;
+}
+.input1{
+    margin-left: 50px;
+
+}
+.input2{
+    margin-left: 20px;
+}
+.div{
+    align-items: center;
+}
+.boton{
+    border-radius: 5px;
+    position: relative;
+    left: 30px;
+    text-decoration: none;
+
+}

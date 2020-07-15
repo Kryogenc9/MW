@@ -5,15 +5,17 @@
     background-color: #2E2E47 !important;
 
 }
-form{
+.form{
     background-color: #2E2E47;
     color:#ffffff;
 }
 .label{
+    padding-left: 10px;
 
 }
 .input{
 
+    margin-left: 60px;
 }
 
 
@@ -21,6 +23,10 @@ form{
     background-color: #2E2E47;
 }
 
-.custom-modal{
-    background-color: red !important;
+.ModalBody{
+
+}
+.Content{
+    background-color: #2E2E47 !important;
+    color: #ffffff;
 }
