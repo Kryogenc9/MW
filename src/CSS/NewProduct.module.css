@@ -1,0 +1,63 @@
+.div{
+    height: 100vh;
+}
+.form{
+    background-color: #2E2E47;
+    border:1px solid #3E6E95;
+    border-radius: 10px;
+    width: 70vh;
+    height: 45vh;
+    position:relative;
+    left: 100vh;
+    top: -450px;
+
+}
+
+.label1{
+    color: white;
+    text-align: Center;
+    margin-left: 10vh;
+}
+.titulo{
+    display: block;
+    text-align: Center;
+    color: white;
+    border-bottom: 1px solid #3E6E95;
+}
+/*---------Formulario----------*/
+.input1{
+    margin-left: 10vh;
+}
+.input2{
+    margin-left: 7vh;
+}
+.input3{
+    margin-left: 10.5vh;
+}
+
+.labelproducto{
+    color: white;
+    margin-left: 10px;
+
+}
+.labelcodigo{
+    color: white;
+    margin-left: 10px;
+
+}
+.labelprecio{
+    color: white;
+    margin-left: 10px;
+}
+/*--------------------------*/
+/*---------Botones----------*/
+.aceptar{
+    margin-left: 20px;
+
+}
+.cancelar{
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 25vh;
+}
+/*------------------------*/

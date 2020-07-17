@@ -3,12 +3,14 @@ import General from "../src/Pages/General"
 import Pagos from "./Pages/Pagos";
 import Ventas from "./Pages/Ventas";
 import Login from "./Pages/Login";
+import NewProduct from "./Pages/NewProduct"
 
 import {
     BrowserRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
+
 
 
 function App() {
@@ -27,10 +29,10 @@ function App() {
                 <Route path="/Ventas">
                     <Ventas/>
                 </Route>
-                <Route path="/PAGOS">
+                <Route path="/NewProduct">
 
                     <div>
-                        <Pagos/>
+                        <NewProduct/>
                     </div>
 
                 </Route>

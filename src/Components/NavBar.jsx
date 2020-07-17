@@ -36,7 +36,7 @@ export default function NavBar() {
                         className={navb.Labels}>Ofertas</label></Nav.Link>
                 </Nav.Item>
                 <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
-                    <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}> <StarFill size="3em" altura="3em"
+                    <Nav.Link href="/NewProduct" bsPrefix={`${navb.NavLink} nav-link`}> <StarFill size="3em" altura="3em"
                                                                                               fill="#9AA0A8"
                                                                                               name={navb.icon}/> <label
                         className={navb.Labels}>Nuevo Producto</label> </Nav.Link>
