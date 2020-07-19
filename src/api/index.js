@@ -10,8 +10,15 @@ export function save(product) {
         headers: {
             'Content-Type': 'application/json'
         }
+    }) .then(response => {
+        if (!response.ok) {
+            alert("Rellene los campos correctamente");
+        }else{
+            alert("El producto se ha añadido satisfactoriamente");
+        }
+
     });
-    alert("El producto se ha añadido satisfactoriamente");
+
 }
 export function updat(codes) {
 
@@ -25,5 +32,19 @@ export function updat(codes) {
         headers: {
             'Content-Type': 'application/json'
         }
-    });
+    })
+        .then(response => {
+            if(!response.ok)
+            {
+                alert("El producto ingresado no existe o los datos ingresados son invalidos");
+
+            }else{
+                alert("Cambios guardados satisfactoriamente");
+            }
+
+
+
+        })
+
+
 }
