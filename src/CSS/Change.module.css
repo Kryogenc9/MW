@@ -1,0 +1,29 @@
+.input1{
+    margin-left: 5px;
+
+}
+.input2{
+    margin-left: 15px;
+
+}
+.labelcodigo{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.div{
+    position: relative;
+    left: 35%;
+    top: -70vh;
+    color:white;
+    border: 2px solid #3E6E95;
+    width: 80vh;
+    height: 30vh;
+    border-radius: 10px;
+}
+.boton1{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.boton2{
+    margin-left: 30vh;
+}

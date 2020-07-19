@@ -4,12 +4,14 @@ import Pagos from "./Pages/Pagos";
 import Ventas from "./Pages/Ventas";
 import Login from "./Pages/Login";
 import NewProduct from "./Pages/NewProduct"
+import Change from "./Pages/Change";
 
 import {
     BrowserRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
+
 
 
 
@@ -35,6 +37,9 @@ function App() {
                         <NewProduct/>
                     </div>
 
+                </Route>
+                <Route path="/Change">
+                    <Change/>
                 </Route>
             </Switch>
         </Router>

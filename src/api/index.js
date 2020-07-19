@@ -13,3 +13,17 @@ export function save(product) {
     });
     alert("El producto se ha añadido satisfactoriamente");
 }
+export function updat(codes) {
+
+
+    fetch('http://localhost:5000/Change/'+codes.Code2, {
+        method: 'PATCH',
+        body: JSON.stringify({
+            id_producto: codes.Code
+
+        }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+}

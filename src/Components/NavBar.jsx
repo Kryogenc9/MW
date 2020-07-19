@@ -42,10 +42,10 @@ export default function NavBar() {
                         className={navb.Labels}>Nuevo Producto</label> </Nav.Link>
                 </Nav.Item>
                 <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
-                    <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}>
+                    <Nav.Link href="/Change" bsPrefix={`${navb.NavLink} nav-link`}>
                         <Upc size="3em" altura="3em" fill="#9AA0A8"
-                                                                                         name={navb.icon}/> <label
-                        className={navb.Labels}>Cambiar Codigo</label></Nav.Link>
+                             name={navb.icon}/>
+                             <label className={navb.Labels}>Cambiar Codigo</label></Nav.Link>
                 </Nav.Item>
                 <Nav.Item bsPrefix={`${navb.NavItem} nav-item`}>
                     <Nav.Link href="/Ventas" bsPrefix={`${navb.NavLink} nav-link`}> <GearFill size="3em" altura="3em"
