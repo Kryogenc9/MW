@@ -2,6 +2,7 @@ import React from "react";
 import InputLine from "../Components/InputLine";
 import Nuevo from "../CSS/NewProduct.module.css"
 import NavBar from "../Components/NavBar";
+import {save} from "../api/index"
 
 export default class NewProduct extends React.Component {
     state = {
@@ -20,7 +21,7 @@ export default class NewProduct extends React.Component {
     doSave = (event) => {
         event.preventDefault();
 
-
+        save(this.state.NewData);
     }
 
 
@@ -34,7 +35,7 @@ export default class NewProduct extends React.Component {
     }
 
     render() {
-        const {Codigo, Producto, Precio} = this.state.NewData;
+        const {Code, Product, Price} = this.state.NewData;
         const {errors} = this.state;
         return (
             <div className={Nuevo.div}>
@@ -45,39 +46,39 @@ export default class NewProduct extends React.Component {
                         Ingrese los campos solicitados
                     </label>
                     <InputLine
-                        name="codigo"
+                        name="Code"
                         label="codigo"
                         type="number"
                         onChange={this.onChange}
                         error={errors.Code}
-                        value={Codigo}
+                        value={Code.Code}
                         className={Nuevo.input1}
                         className1={Nuevo.labelcodigo}
 
                     />
                     <InputLine
-                        name="producto"
+                        name="Product"
                         label="Producto"
                         type="text"
                         onChange={this.onChange}
                         error={errors.Product}
-                        value={Producto}
+                        value={Product.Product}
                         className={Nuevo.input2}
                         className1={Nuevo.labelproducto}
 
                     />
                     <InputLine
-                        name="precio"
+                        name="Price"
                         label="Precio"
                         type="number"
                         onChange={this.onChange}
-                        error={errors.Code}
-                        value={Precio}
+                        error={errors.Price}
+                        value={Price.Price}
                         className={Nuevo.input3}
                         className1={Nuevo.labelprecio}
 
                     />
-                    <button className={Nuevo.aceptar}>Aceptar</button>
+                    <button className={Nuevo.aceptar} onClick={this.doSave}>Aceptar</button>
                     <button className={Nuevo.cancelar}>Cancelar</button>
                 </form>
             </div>

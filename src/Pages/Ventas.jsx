@@ -11,6 +11,7 @@ import Modal from "../Mod/Modal";
 //<Search size="1em" fill="#9AA0A8" name={vta.SearchIcon}/>
 //<Link to="/Pagos" className={vta.Botona}>Pagar</Link>
 export default function Ventas() {
+
     return(
         <div className={vta.div}>
             <NavBar/>
